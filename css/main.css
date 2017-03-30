@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+body { 
+    background-color: rgb(244, 244, 244);
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    padding: 0px;
+    margin: 0px;
+}
+
+#top-banner-container {
+    background-color: #fff;
+    width: 100%;
+}
+
+#top-banner {
+    padding: 15px;
+    margin: auto;
+    max-width: 1024px;
+    background-image: url('images/wh_header_decor_desktop_large_format.png');
+    background-origin: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #353535;
+    font-size: 1.077em;
+    display: block;
+    line-height: 1em;
+    font-style: italic;
+    font-family: "Merriweather",Georgia,"Times New Roman","DejaVu Serif",serif;
+    box-sizing: border-box;
+}
+
+#hero {
+    background-color: white;
+    padding: 50px 0px;
+    margin: 0px;
+    background-image: url('images/HomePageImage.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    overflow: hidden;
+    min-height: 450px;
+}
+
+#hero-quote {
+    border-image-width: 1px;
+    float: right;
+    color: #AAA;
+    padding: 30px;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: rgba(180, 0, 0, 0.7);
+    font-size: 1.1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#hero-quote h2 {
+    color: #FFF;
+    font-size: 1.6em;
+    font-style: bold;
+}
