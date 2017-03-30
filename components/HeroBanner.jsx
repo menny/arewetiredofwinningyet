@@ -1,17 +1,22 @@
 import React from 'react';
 import Link from 'link-react';
 
-var HeroBanner = React.createClass({
-    render: function() {
+import ScoreBox from './ScoreBox.jsx';
+
+import quotesData from './data/quotes.json';
+
+class HeroBanner extends React.Component {
+    render() {
         return (
             <p id="hero">
+                <ScoreBox/>
                 <div id="hero-quote">
-                    <h2>"Nobody knew health care could be so complicated"<Link className="citation" href="http://www.cnn.com/2017/02/27/politics/trump-health-care-complicated/">&nbsp;&nbsp;</Link></h2>
+                    <p className="quote-text">{"\""+quotesData[0].quote+"\""}<Link className="citation" href={quotesData[0].link}>&nbsp;&nbsp;</Link></p>
                     <p>- President Donald J. Trump</p>
                 </div>
             </p>
         );
     }
-});
+}
 
 module.exports = HeroBanner;

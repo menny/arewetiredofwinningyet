@@ -3,6 +3,7 @@ import {render} from 'react-dom';
 
 import TopBanner from './TopBanner.jsx';
 import HeroBanner from './HeroBanner.jsx';
+import Wins from './Wins.jsx';
 
 class App extends React.Component {
   render () {
@@ -10,6 +11,7 @@ class App extends React.Component {
         <div>
             <TopBanner/>
             <HeroBanner/>
+            <Wins/>
         </div>);
   }
 }

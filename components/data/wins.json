@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Muslim Ban - 2nd try",
+        "state": "fail",
+        "text": "The Hawaii federal judge who blocked portions of President Trump's revised Muslim travel ban two weeks ago, ruled to extend the hold indefinitely on Wednesday.",
+        "link": "http://www.slate.com/blogs/the_slatest/2017/03/29/hawaii_federal_judge_extends_block_on_trump_s_muslim_travel_ban.html" 
+    },
+    {
+        "title": "Repeal and Replace Obamacare",
+        "state": "fail",
+        "text": "House Republican leaders, facing a revolt among conservatives and moderates in their ranks, pulled legislation to repeal the Affordable Care Act from consideration on the House floor Friday in a major defeat for President Trump on the first legislative showdown of his presidency.",
+        "link": "https://www.nytimes.com/2017/03/24/us/politics/health-care-affordable-care-act.html?_r=0" 
+    },
+    {
+        "title": "National Security Adviser",
+        "state": "fail",
+        "text": "Michael T. Flynn, the national security adviser, resigned on Monday night after it was revealed that he had misled Vice President Mike Pence and other top White House officials about his conversations with the Russian ambassador to the United States.",
+        "link": "https://www.nytimes.com/2017/02/13/us/politics/donald-trump-national-security-adviser-michael-flynn.html"
+    },
+    {
+        "title": "Muslim Ban",
+        "state": "fail",
+        "text": "A federal appeals panel has maintained the freeze on President Trump’s controversial immigration order, meaning previously barred refugees and citizens from seven majority-Muslim countries can continue entering the United States.",
+        "link": "https://www.washingtonpost.com/world/national-security/federal-appeals-court-maintains-suspension-of-trumps-immigration-order/2017/02/09/e8526e70-ed47-11e6-9662-6eedf1627882_story.html?utm_term=.aa5fbcca8c2b"
+    },
+    {
+        "title": "Border Wall paid for by Mexico",
+        "state": "pending",
+        "text": "Executive Order was signed. No further progress.",
+        "link": "https://www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements"
+    },
+    {
+        "title": "Win Elections",
+        "state": "success",
+        "text": "Donald Trump Wins the 2016 Election with 306 out of 538 electoral votes.",
+        "link": "http://time.com/4563685/donald-trump-wins/"
+    }
+]

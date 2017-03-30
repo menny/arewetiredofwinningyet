@@ -4,6 +4,14 @@ body {
     background-color: rgb(244, 244, 244);
     padding: 0px;
     margin: 0px;
+    font-family: "Merriweather",Georgia,"Times New Roman","DejaVu Serif",serif;
+}
+
+#page-footer {
+    margin: auto;
+    margin-bottom: 5px;
+    padding-right: 40px;
+    text-align: end;
 }
 
 #container {
@@ -29,7 +37,6 @@ body {
     display: block;
     line-height: 1em;
     font-style: italic;
-    font-family: "Merriweather",Georgia,"Times New Roman","DejaVu Serif",serif;
     box-sizing: border-box;
 }
 
@@ -60,10 +67,27 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#hero-quote h2 {
+#hero-quote .quote-text {
     color: #FFF;
-    font-size: 1.6em;
-    font-style: bold;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-indent: -15px;
+}
+
+#score-box {
+    color: #FFF;
+    width: fit-content;
+    font-size: 16px;
+    font-family: 'Codystar', cursive;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+#score-box .score {
+    font-size: 30px;
 }
 
 .citation,.citation:link,.citation:visited,.citation:hover,.citation:focus,.citation:active {
@@ -78,4 +102,55 @@ body {
     height: 24px;
     min-width: 24px;
     min-height: 24px;
+}
+
+div.card {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#win-container {
+    background-color: white;
+    padding: 5px 50px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 24px;
+    border: rgb(180, 0, 0);
+    border-width: 1px;
+    border-top-width: 4px;
+    border-style: solid;
+    border-radius: 4px;
+    top: -30px;
+}
+
+#win-title {
+    text-align: center;
+}
+
+.win-state {
+    margin-left: 16px;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.win-state.fail:before {
+    color: #F33;
+    content: "╳";
+    font-weight: bold;
+}
+
+.win-state.pending:before {
+    color: yellow;
+    content: "⌛";
+}
+
+.win-state.success:before {
+    color: #3F3;
+    content: "✔";
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#win-details {
+    text-align: justify;
 }
