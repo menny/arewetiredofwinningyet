@@ -87,6 +87,7 @@ body {
 }
 
 #score-box .score {
+    padding-top: 6px;
     font-size: 30px;
 }
 
