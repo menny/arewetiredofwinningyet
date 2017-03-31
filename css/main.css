@@ -140,20 +140,15 @@ div.card {
 }
 
 .win-state.fail:after {
-    color: #F33;
-    content: "╳";
-    font-weight: bold;
+    content: "🌍";
 }
 
 .win-state.pending:before {
-    color: yellow;
     content: "⌛";
 }
 
 .win-state.success:before {
-    color: #3F3;
-    content: "✔";
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    content: "🏆";
 }
 
 #win-details {
