@@ -1,10 +1,9 @@
 @charset "utf-8";
-
-body { 
+body {
     background-color: rgb(244, 244, 244);
     padding: 0px;
     margin: 0px;
-    font-family: "Merriweather",Georgia,"Times New Roman","DejaVu Serif",serif;
+    font-family: "Merriweather", Georgia, "Times New Roman", "DejaVu Serif", serif;
 }
 
 #page-footer {
@@ -48,7 +47,7 @@ body {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: center;
     overflow: hidden;
     min-height: 450px;
 }
@@ -91,7 +90,12 @@ body {
     font-size: 30px;
 }
 
-.citation,.citation:link,.citation:visited,.citation:hover,.citation:focus,.citation:active {
+.citation,
+.citation:link,
+.citation:visited,
+.citation:hover,
+.citation:focus,
+.citation:active {
     color: inherit;
     text-decoration: none;
     background-image: url('images/external-link.png');
@@ -130,12 +134,12 @@ div.card {
 }
 
 .win-state {
-    margin-left: 16px;
+    margin-left: 8px;
     font-size: 0.8em;
     font-weight: lighter;
 }
 
-.win-state.fail:before {
+.win-state.fail:after {
     color: #F33;
     content: "╳";
     font-weight: bold;
