@@ -1,15 +1,26 @@
-[
+[{
+        "title": "Defund Planned Parenthood",
+        "state": "pending",
+        "text": "With a rare tie-breaking vote from Vice President Mike Pence, the Senate on Thursday sent a bill to President Donald Trump’s desk giving states permission to withhold federal family planning funds from Planned Parenthood and other abortion providers. Trump did not sign into law, yet.",
+        "link": "http://www.politico.com/story/2017/03/mike-pence-johnny-isakson-planned-parenthood-vote-senate-236702"
+    },
+    {
+        "title": "End the War on Coal",
+        "state": "success",
+        "text": "President Trump, flanked by company executives and miners, signed a long-promised executive order on Tuesday to nullify President Barack Obama’s climate change efforts and revive the coal industry, effectively ceding American leadership in the international campaign to curb the dangerous heating of the planet.",
+        "link": "https://www.nytimes.com/2017/03/28/climate/trump-executive-order-climate-change.html?_r=0"
+    },
     {
         "title": "Muslim Ban - 2nd try",
         "state": "fail",
         "text": "The Hawaii federal judge who blocked portions of President Trump's revised Muslim travel ban two weeks ago, ruled to extend the hold indefinitely on Wednesday.",
-        "link": "http://www.slate.com/blogs/the_slatest/2017/03/29/hawaii_federal_judge_extends_block_on_trump_s_muslim_travel_ban.html" 
+        "link": "http://www.slate.com/blogs/the_slatest/2017/03/29/hawaii_federal_judge_extends_block_on_trump_s_muslim_travel_ban.html"
     },
     {
         "title": "Repeal and Replace Obamacare",
         "state": "fail",
         "text": "House Republican leaders, facing a revolt among conservatives and moderates in their ranks, pulled legislation to repeal the Affordable Care Act from consideration on the House floor Friday in a major defeat for President Trump on the first legislative showdown of his presidency.",
-        "link": "https://www.nytimes.com/2017/03/24/us/politics/health-care-affordable-care-act.html?_r=0" 
+        "link": "https://www.nytimes.com/2017/03/24/us/politics/health-care-affordable-care-act.html?_r=0"
     },
     {
         "title": "National Security Adviser",
