@@ -12,8 +12,8 @@ class ScoreBox extends React.Component {
     });
     
     return (<div id="score-box">
-        <div>Trump vs World</div>
-        <div className="score">🏆&nbsp;{winsCount}:{failsCount}&nbsp;🌍</div>
+        <div>Trump vs Humanity</div>
+        <div className="score">👱&nbsp;{winsCount}:{failsCount}&nbsp;🌍</div>
       </div>);
   }
 }

@@ -174,9 +174,9 @@ div.card {
     margin: auto;
     position: relative;
     margin-bottom: 24px;
-    border: rgb(180, 0, 0);
-    border-width: 1px;
-    border-top-width: 4px;
+    border-color: gray;
+    border-width: 0px;
+    border-top-width: 2px;
     border-style: solid;
     border-radius: 4px;
     top: -30px;
@@ -188,6 +188,16 @@ div.card {
         width: 85%;
         top: 8px;
     }
+}
+
+#win-container.success {
+    /*background-color: #faf0be;*/
+    border-color: rgb(180, 0, 0);
+}
+
+#win-container.fail {
+    /*background-color: #b3b0f6;*/
+    border-color: #00929F;
 }
 
 #win-title {
@@ -209,7 +219,7 @@ div.card {
 }
 
 .win-state.success:before {
-    content: "🏆";
+    content: "👱";
 }
 
 #win-details {

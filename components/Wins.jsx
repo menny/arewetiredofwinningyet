@@ -4,7 +4,7 @@ import Link from 'link-react';
 import winsData from './data/wins.json';
 
 function Win(props) {
-  return <div id="win-container" className="card">
+  return <div id="win-container" className={"card "+props.winState}>
         <h3 id="win-title">{props.title}<span className={"win-state "+props.winState}>&nbsp;{props.score}&nbsp;</span></h3>
         <p id="win-details">{props.details}<Link className="citation" href={props.link}>&nbsp;&nbsp;</Link></p>
     </div>;
