@@ -222,14 +222,26 @@ div.card {
     content: "👱";
 }
 
-.rationale-tooltip {
+.tooltip {
     color: white !important;
     background-color: black !important;
     max-width: 200px;
     border-color: gray !important;
     border-style: solid !important;
     border-width: 2px !important;
-    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 12px 0 rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 2px 4px 0 rgba(0, 0, 0, 0.3) !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    font-size: 8px;
+    font-weight: lighter;
+    line-height: 16px;
+}
+
+.tooltipRationale {
+    text-align: center;
+}
+
+.tooltipScore {
+    text-align: left;
 }
 
 #win-details {

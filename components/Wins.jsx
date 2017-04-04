@@ -12,7 +12,7 @@ function Win(props) {
                 <span data-tip="React-tooltip" data-for={tooltipId} className={"win-state "+props.winState}>
                     &nbsp;{props.score}&nbsp;
                 </span>
-                <ReactTooltip id={tooltipId} place="left" multiline="true" effect="solid" class='rationale-tooltip'>
+                <ReactTooltip id={tooltipId} place="left" multiline={true} effect="solid" class='tooltip tooltipRationale'>
                     <u>Why?</u><br/>
                     { props.rationale }
                 </ReactTooltip>
